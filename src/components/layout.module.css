@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+  color: white;
+  font-family: "Heebo";
+}
+
+.MarketingPage {
+  text-align: left;
+}
+
+.header {
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.list {
+  color: rgb(252, 252, 252);
+}
