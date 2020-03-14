@@ -19,15 +19,19 @@ const ContactPage = () => (
         <input type="hidden" name="form-name" value="contact" />
         <Form.Group as={Col} controlId="formGridEmail">
           <Form.Label>Email</Form.Label>
-          <Form.Control type="email" placeholder="Enter email" />
+          <Form.Control name="Email" type="email" placeholder="Enter email" />
         </Form.Group>
         <Form.Group as={Col} controlId="formGridName">
           <Form.Label>Artist Name</Form.Label>
-          <Form.Control type="text" placeholder="Artist Name" />
+          <Form.Control name="Name" type="text" placeholder="Artist Name" />
         </Form.Group>
         <Form.Group as={Col} controlId="formGridLink">
           <Form.Label>Private Soundcloud Link</Form.Label>
-          <Form.Control type="url" placeholder="Private Soundcloud Link" />
+          <Form.Control
+            name="Link"
+            type="url"
+            placeholder="Private Soundcloud Link"
+          />
         </Form.Group>
         <div className={LayoutStyles.buttcent}>
           <Button className={LayoutStyles.formbutt} type="submit">
