@@ -21,7 +21,7 @@ const MarketingPage = () => (
       defaultActiveKey="first"
     >
       <Row>
-        <Col sm={3}>
+        <Col sm={2}>
           <Nav variant="pills" className="flex-column">
             <Nav.Item>
               <Nav.Link eventKey="first">VIP</Nav.Link>
@@ -37,14 +37,14 @@ const MarketingPage = () => (
             </Nav.Item>
           </Nav>
         </Col>
-        <Col sm={9}>
+        <Col style={{ padding: 0, margin: 0 }}>
           <Tab.Content>
             <Tab.Pane eventKey="first">
               <div className={LayoutStyles.MarketingPage}>
                 <h2>VIP</h2>
                 <p>$0/month - Any artist over 3,000 followers</p>
                 <ul className={LayoutStyles.list}>
-                  <li>Full chain reach (313k)</li>
+                  <li>Full chain reach (300k+)</li>
                   <li>Likes on track</li>
                   <li>48 hour repost</li>
                   <li>Instagram story post</li>

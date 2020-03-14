@@ -26,6 +26,7 @@ const PageNav = () => (
           <Nav.Link href="/music">ABOUT</Nav.Link>
           <Nav.Link href="/music">MUSIC</Nav.Link>
           <Nav.Link href="/marketing">MARKETING</Nav.Link>
+          <Nav.Link href="/contact">CONTACT</Nav.Link>
           <Nav.Link
             href="https://www.etsy.com/shop/thegoodphellas"
             target="_blank"

@@ -16,3 +16,20 @@ body {
 .list {
   color: rgb(252, 252, 252);
 }
+
+.formcont {
+  text-align: left;
+  padding-left: 30vw;
+  padding-right: 30vw;
+}
+
+.buttcent {
+  text-align: center;
+}
+
+.formbutt {
+  color: white;
+  background-color: transparent;
+  border-color: white;
+  width: 10rem;
+}
